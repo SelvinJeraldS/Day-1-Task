@@ -1,0 +1,26 @@
+Write a blog about objects and its internal representation in Javascript
+
+
+Object in javascript uses Key value pairs.
+for examplee A bag contains books and box and water bottle 
+in this exapmle bag is a container that stores books inside it so bag is considerred as a objects
+
+var bag={
+    books: "5";
+    waterbottle:"1"
+}
+
+in object we can also use functions and methods as a value;
+using  Inheritance
+example:
+var vehicle = {
+    start: function() {
+        console.log('The vehicle engine is started.');
+    }
+};
+
+
+
+var bike = Object.create(vehicle);
+bike.type = 'Mountain';
+bike.start();

@@ -1,0 +1,24 @@
+ Difference between HTTP 1.1 vs HTTP 2
+
+ In HTTP 1.1  i works in one request in single connection 
+ multiple request at the same time is not possible.
+
+ In HTTP 2 we can send and recieve multiple request and response at the same time in single connection.
+multiplexing is a feature  that improves the page loading and the performance of the websites
+
+
+In HTTP 1.1 had an issue with the header in plain text formates  which is updated in HTTP2
+with header compression reducing the size of the header transmitted between client and server 
+the optimization eis network utilization ,faster page rendering,reduced bandwidth and data transfer.
+
+
+HTTP 1.1 uses Text protocol which makes it human readable makes it less efficient in parsing whereas in HTTP 2
+which is more compact and easier for machines to interpret also reduces parsing complexities .
+
+HTTP 1.1 , clients are required to explicitly request each resource needed to render a webpage, 
+resulting in additional round trips and potential delays.in HTTP2 server can push resources proactively.
+
+
+HTTP 1.1  does not allow Stearm prioritization  HTTP2 allows priotization of resources
+
+  
